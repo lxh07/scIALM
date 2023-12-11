@@ -1,0 +1,6 @@
+torch==1.8.2
+numpy==1.21.6
+pandas==1.2.3
+scanpy==1.9.1
+scipy==1.8.1
+scikit-learn==1.1.3
