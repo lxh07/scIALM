@@ -3,4 +3,4 @@ A method for sparse scRNA-seq expression matrix imputation using the Inexact Aug
 
 ### Dependencies
 * MATLAB & Python
-* Dependencies can be installed using [inexact_alm/preprocess/requirements.txt]
+* Dependencies can be installed using [**inexact_alm/preprocess/requirements.txt**](
