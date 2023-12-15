@@ -13,4 +13,4 @@ A method for sparse scRNA-seq expression matrix imputation using the Inexact Aug
 * PBMC
   * Run [inexact_alm/preprocess/data/PBMC/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/requirements.txt)
 * Klein
-  * Run [inexact_alm/preprocess/data/PBMC/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/requirements.txt)
+  * Run [inexact_alm/preprocess/data/Klein/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/requirements.txt)
