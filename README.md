@@ -41,5 +41,7 @@ test.m
 ```matlab
 mask = csvread("preprocess/data/PBMC/masked/PBMC_01.csv",1,1);
 
+folder='preprocess/data/PBMC/result/';
+
 writetable(data_table, "preprocess/data/PBMC/result/PBMC_01.csv");
 ```
