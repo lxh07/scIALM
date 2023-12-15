@@ -9,8 +9,21 @@ A method for sparse scRNA-seq expression matrix imputation using the Inexact Aug
 ### Data
 * PBMC and Klein have been given.
 
-### Preprocess
+### 1.Preprocess (Python)
 * PBMC
-  * Run [inexact_alm/preprocess/data/PBMC/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/requirements.txt)
+  * Run [inexact_alm/preprocess/data/PBMC/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/data/PBMC/preprocess.py)
+  * Output folder: inexact_alm/preprocess/data/PBMC/processed/
 * Klein
-  * Run [inexact_alm/preprocess/data/Klein/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/requirements.txt)
+  * Run [inexact_alm/preprocess/data/Klein/preprocess.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/data/Klein/preprocess.py)
+  * Output folder: inexact_alm/preprocess/data/Klein/processed/
+ 
+### 2.Mask (Python)
+* Run [inexact_alm/preprocess/data/mask.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/data/mask.py)
+* Output folder: inexact_alm/preprocess/data/{name}/masked/
+
+### 3.Algorithm 3 (Matlab)
+* Run [inexact_alm/test.m](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/test.m)
+* Output folder: inexact_alm/preprocess/data/{name}/result/
+
+### 4.result (Python)
+* Run [inexact_alm/preprocess/result.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/result.py)
