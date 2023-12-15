@@ -25,5 +25,5 @@ A method for sparse scRNA-seq expression matrix imputation using the Inexact Aug
 * Run [inexact_alm/test.m](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/test.m)
 * Output folder: inexact_alm/preprocess/data/{name}/result/
 
-### 4.result (Python)
+### 4.Results (Python)
 * Run [inexact_alm/preprocess/result.py](https://github.com/lxhfighting/scIALM/blob/main/inexact_alm/preprocess/result.py)
