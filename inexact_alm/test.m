@@ -1,4 +1,4 @@
-mask = csvread("preprocess/data/Klein/masked/Klein_01.csv",1,1);
+mask = csvread("preprocess/data/PBMC/masked/PBMC_01.csv",1,1);
 
 newDataFlag = 1;
 if newDataFlag == 1
@@ -41,4 +41,4 @@ tElapsed = toc;
 imputed = A.U*A.V';
 data_table = array2table(imputed);disp('Time');
 disp(tElapsed);
-writetable(data_table, "preprocess/data/Klein/result/Klein_01.csv");
+writetable(data_table, "preprocess/data/PBMC/result/PBMC_01.csv");
